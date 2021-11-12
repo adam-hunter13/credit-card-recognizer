@@ -41,6 +41,6 @@ const cleaveDate = new Cleave("#cardExpiry", {
   datePattern: ["m", "y"],
 });
 
-const cleaveDate = new Cleave("#cardCcv", {
-  blocks:[4],
+const cleaveCCV = new Cleave("#cardCcv", {
+  blocks: [4],
 });
